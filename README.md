@@ -10,7 +10,7 @@ This repository provides trending and customized GitHub repositories based on us
 ```bash
 pip install requirements.txt
 ```
-4. Add your GitHub Personal Access Token in a .env file (or any custom file you prefer).
+4. Add your GitHub Personal Access Token in a .env file (or any custom file you prefer). Add this ACCESS_TOKEN in .env file with your access token.
 5. Run the backend server using Uvicorn:
 ```bash
 uvicorn main:app --port <port_number> --reload
